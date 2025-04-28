@@ -1,13 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
   <title>Projects</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link href="styles/main.css" rel="stylesheet" />
 </head>
 <body>
-<a href="https://frontrabotka.github.io/conspect/">Conspect</a>
+<main>
+  <h1>Проекты</h1>
+  <section class="projects-grid">
+    <h2 class="heading">Список проектов</h2>
+    <article class="project-card">
+      <a
+        aria-label="Перейти на сайт Conspect"
+        href="https://frontrabotka.github.io/conspect/"
+        title="Перейти на сайт Conspect"
+      >
+        <picture>
+          <source srcset="img/Conspect-512x343.avif" type="image/avif" />
+          <source srcset="img/Conspect-512x343.webp" type="image/webp" />
+          <img
+            alt="Перо и компьютер"
+            height="343"
+            loading="lazy"
+            src="img/Conspect-512x343.jpg"
+            width="512"
+          />
+        </picture>
+        <h2>Conspect</h2></a
+      >
+      <p class="project-description">
+        Conspect - коллекция практических конспектов по веб-разработке.
+        Учебные материалы по HTML, CSS, JavaScript и другим технологиям.
+      </p>
+    </article>
+  </section>
+</main>
 </body>
 </html>
