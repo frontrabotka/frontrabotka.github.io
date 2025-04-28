@@ -1,0 +1,8 @@
+humbs.db
+ehthumbs.db
+desktop.ini
+.cache
+.env
+.DS_Store
+node_modules/
+.idea/
