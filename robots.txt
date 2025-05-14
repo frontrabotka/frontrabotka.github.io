@@ -4,3 +4,4 @@ Disallow: /google21a4260b40382dd9.html
 Disallow: /conspect/error-page.html
 Allow: /
 Sitemap: https://frontrabotka.github.io/sitemap.xml
+Sitemap: https://frontrabotka.github.io/conspect/sitemap.xml
